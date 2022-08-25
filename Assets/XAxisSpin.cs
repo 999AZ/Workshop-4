@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class XAxisSpin : MonoBehaviour
 {
-    [SerializeField] private float spinSpeed;
+    [SerializeField] private float spinSpeed = 100f;
 
     // Update() is called once *per frame*. It is called *after* the Start()
     // method, which is only called once when the component is enabled for the
